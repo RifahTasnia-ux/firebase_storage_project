@@ -59,7 +59,7 @@ class _ImageGridViewState extends State<ImageGridView> {
                 gridTile = VideoPlayerWidget(videoURL: videoURLs[videoIndex]);
               }
               return Padding(
-                padding: EdgeInsets.all(8.0), // Add padding around each GridTile
+                padding: EdgeInsets.all(8.0),
                 child: gridTile,
               );
             },
